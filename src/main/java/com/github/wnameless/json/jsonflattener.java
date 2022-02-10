@@ -14,7 +14,6 @@ public class jsonflattener {
 
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
-
         sc.close();
 
         JSONParser jsonParser = new JSONParser();

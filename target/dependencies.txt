@@ -1,0 +1,18 @@
+digraph "com.github.wnameless.json:json-flattener:jar:1.0-SNAPSHOT" { 
+	"com.github.wnameless.json:json-flattener:jar:1.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" ; 
+	"com.github.wnameless.json:json-flattener:jar:1.0-SNAPSHOT" -> "com.googlecode.json-simple:json-simple:jar:1.1.1:compile" ; 
+	"com.github.wnameless.json:json-flattener:jar:1.0-SNAPSHOT" -> "com.github.wnameless.json:json-flattener:jar:0.13.0:compile" ; 
+	"com.github.wnameless.json:json-flattener:jar:1.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.6.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" -> "org.junit.platform:junit-platform-commons:jar:1.6.0:test" ; 
+	"com.googlecode.json-simple:json-simple:jar:1.1.1:compile" -> "junit:junit:jar:4.10:compile" ; 
+	"junit:junit:jar:4.10:compile" -> "org.hamcrest:hamcrest-core:jar:1.1:compile" ; 
+	"com.github.wnameless.json:json-flattener:jar:0.13.0:compile" -> "com.fasterxml.jackson.core:jackson-databind:jar:2.13.0:compile" ; 
+	"com.github.wnameless.json:json-flattener:jar:0.13.0:compile" -> "org.apache.commons:commons-text:jar:1.9:compile" ; 
+	"com.github.wnameless.json:json-flattener:jar:0.13.0:compile" -> "com.github.wnameless.json:json-base:jar:2.0.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.13.0:compile" -> "com.fasterxml.jackson.core:jackson-annotations:jar:2.13.0:compile" ; 
+	"com.fasterxml.jackson.core:jackson-databind:jar:2.13.0:compile" -> "com.fasterxml.jackson.core:jackson-core:jar:2.13.0:compile" ; 
+	"org.apache.commons:commons-text:jar:1.9:compile" -> "org.apache.commons:commons-lang3:jar:3.11:compile" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.0:test" -> "org.junit.platform:junit-platform-engine:jar:1.6.0:test" ; 
+ } 

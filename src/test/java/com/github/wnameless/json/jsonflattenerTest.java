@@ -12,9 +12,4 @@ class jsonflattenerTest {
         String expected = "{\"a\":1,\"b\":true,\"c.d\":3,\"c.e\":\"test\"}";
         assertEquals(expected, JsonFlattener.flatten(input));
     }
-
-    @Test
-    public void flattenInputGivenZeroReturnsEmpty() {
-
-    }
 }
