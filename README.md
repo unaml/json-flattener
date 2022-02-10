@@ -13,4 +13,5 @@ How to run the json flattener
   
   b. If you want to use your own file, please add it to the resources folder, and change the suffix of the command from line 9, e.g:
       "src/main/java/com/github/wnameless/json/resources/your-file-here.json"
+      
 5. The command line prints out the json flattened json object
